@@ -21,8 +21,8 @@
 
 # Output files from R CMD check
 /*.Rcheck/
-/Figures
-/Keywords
+#/Figures
+#/Keywords
 
 # RStudio files
 .Rproj.user/
