@@ -1,0 +1,95 @@
+"Var1","Freq"
+"flaky test",15
+"flakiness",14
+"flaky tests",9
+"test flakiness",6
+"Flaky Tests",4
+"both passing and failing results (with the same code)",2
+"false alarm",2
+"flakes",2
+"flakily",2
+"flaky",2
+"flaky build",2
+"non deterministic tests",2
+"non-deterministic",2
+"non-deterministic code coverage",2
+"non-deterministic executions",2
+"test dependence",2
+"tests with non-deterministic outcomes",2
+"transitions from pass to fail",2
+"unstable test",2
+"a test that sometimes passes and other fails in a non deterministic-way",1
+"and unexpected-fail",1
+"assumption of test case independence",1
+"assumption of test independence",1
+"build flakiness",1
+"dependencies between individual tests",1
+"dependencies of test",1
+"dependent tests",1
+"exhibit an element of randomness in their outcome",1
+"exhibit different behaviors even with no changes to the code under test",1
+"fail non-deterministically",1
+"fail unexpectedly",1
+"failed non-deterministically",1
+"failures are not deterministically",1
+"false alarms",1
+"flake",1
+"flakiness imposed by test-order dependencies",1
+"Flaky and fragile tests",1
+"flaky failures",1
+"Flaky tests",1
+"inability to reliably repeat a test’s Pass/Fail outcome",1
+"inconsistent test results",1
+"Inconsistent-in-failing",1
+"Inconsistent-in-passing",1
+"incorporate flaky tests that pass and fail on the same commit",1
+"independent tests",1
+"infrastructure flakiness",1
+"intermittent failures",1
+"Intermittent test failures",1
+"intermittently pass or fail",1
+"isolate tests",1
+"non determinism",1
+"non deterministic",1
+"non deterministic behaviour",1
+"non-determinism",1
+"non-determinism in the tests",1
+"non-deterministic behaviour",1
+"non-deterministic failures",1
+"non-deterministic outcome",1
+"non-deterministic outcomes",1
+"non-deterministic test",1
+"Non-deterministic test",1
+"non-deterministically pass or fail for the same code under test",1
+"non-deterministically pass or fail when run on the same version of the code",1
+"nondeterministically pass or fail on the same code",1
+"Order-Dependent test",1
+"outcomes can non-deterministically differ even when run on the same code under test",1
+"pass or fail even when the code has not changed",1
+"pass or fail nondeterministically",1
+"pass(expected random) and known-fail(expected random) are seen as failing and passing non-deterministically intermittent flak *-random we include them in the flaky",1
+"passing and failing nondeterministically",1
+"random outcome (pass or fail)",1
+"randomness of test result",1
+"same test obtains different outcome",1
+"state pollution tests",1
+"state-polluting test",1
+"state-polluting tests",1
+"test dependencies",1
+"test dependency",1
+"test dependency orders",1
+"test fails intermittently",1
+"test failures",1
+"test in isolation",1
+"Test Interference",1
+"test order",1
+"Test Order Dependency",1
+"test-order dependencies",1
+"tests fail intermittently",1
+"tests in isolation",1
+"tests pollute the state",1
+"tests that may pass and fail with the same version of code",1
+"tests whose outcome is non-deterministic",1
+"unexpected-pass",1
+"violate the isolation between tests",1
+"which can both pass and fail",1

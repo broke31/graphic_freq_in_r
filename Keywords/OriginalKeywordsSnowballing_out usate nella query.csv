@@ -1,0 +1,27 @@
+"Var1","Freq"
+
+"brittle",1
+"inconsistent results",1
+"instability",1
+"Intermittently failing",1
+"that fails randomly",1
+
+
+
+"different result test",1
+"fail or pass test for the same version of a certain software code",1
+"false positives test",1
+"false positives test or false negatives test",1
+
+"order-dependent test",2
+"a test that exhibits both pass and failure outcomes",1
+"hidden dependencies between tests",1
+"inconsistency in tests",1
+"inconsistent test result",1
+"test execution order",1
+"test passes sometimes and fails at other times",1
+"test that passes sometimes and fails sometimes",1
+"tests behaving randomly in different runs on the same Code Under Test",1
+"tests that should fail but pass",1
+"tests that should pass but fail",1
+" unpredictable tests",1

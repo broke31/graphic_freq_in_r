@@ -1,4 +1,4 @@
-library(readr)
+ library(readr)
 library(ggplot2)
 library(dplyr)
 
@@ -24,15 +24,21 @@ plot_df <- function(df_with_freq, x_lab,y_lab){
 
 
 main <- function(){
-  NameFile <- "Desktop/graphic_freq_in_r/Keywords/Keyword.csv"
+  namefile = "OriginalKeywordsSnowballing"
+  base = "Desktop/graphic_freq_in_r/Keywords/"
+  path = paste(base,namefile, ".csv",sep = "")
   x_lab = "Keywords"
   y_lab = "Frequencies"
   is_read_col_name = F
   
-  df <- read_file_cvs(NameFile = NameFile, is_read_col_name = is_read_col_name)
+  df <- read_file_cvs(NameFile = path, is_read_col_name = is_read_col_name)
   print(length(df))
   df_with_freq <- get_freq_from_df(df)
   print(length(df_with_freq$Var1))
+  df_with_freq_order <-df_with_freq[order(-df_with_freq$Freq),]
+  print(df_with_freq_order)
+  path_out = paste(base, namefile,"_out",".csv",sep = "")
+  write.csv(df_with_freq_order,path_out, row.names = F)
   plot_df(df_with_freq,x_lab,y_lab)
   
 
